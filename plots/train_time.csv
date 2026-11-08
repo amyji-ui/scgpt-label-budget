@@ -1,0 +1,21 @@
+method,budget,n_labels,embedding_seconds,embedding_device,training_and_prediction_seconds,training_device,total_seconds
+HVG + LR,500,500,0.0,,1.4,CPU,1.4
+HVG + LR,1000,1000,0.0,,2.1,CPU,2.1
+HVG + LR,5000,5000,0.0,,4.5,CPU,4.5
+HVG + LR,all,13988,0.0,,10.9,CPU,10.9
+Harmony + LR,500,500,4.2,CPU,0.3,CPU,4.5
+Harmony + LR,1000,1000,4.2,CPU,0.3,CPU,4.6
+Harmony + LR,5000,5000,4.2,CPU,0.7,CPU,4.9
+Harmony + LR,all,13988,4.2,CPU,1.2,CPU,5.5
+scGPT fine-tuned,500,500,0.0,,311.8,GPU,311.8
+scGPT fine-tuned,1000,1000,0.0,,597.5,GPU,597.5
+scGPT fine-tuned,5000,5000,0.0,,2880.4,GPU,2880.4
+scGPT fine-tuned,all,13988,0.0,,8002.4,GPU,8002.4
+scGPT frozen + LR,500,500,160.3,GPU,1.7,CPU,162.0
+scGPT frozen + LR,1000,1000,160.3,GPU,1.9,CPU,162.2
+scGPT frozen + LR,5000,5000,160.3,GPU,7.6,CPU,167.9
+scGPT frozen + LR,all,13988,160.3,GPU,19.3,CPU,179.6
+scVI + LR,500,500,351.5,GPU,0.0,CPU,351.5
+scVI + LR,1000,1000,351.5,GPU,0.2,CPU,351.7
+scVI + LR,5000,5000,351.5,GPU,0.2,CPU,351.7
+scVI + LR,all,13988,351.5,GPU,0.4,CPU,351.9

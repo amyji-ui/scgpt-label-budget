@@ -1,0 +1,29 @@
+method,budget,n_labels,macro_f1_mean,macro_f1_seed_min,macro_f1_seed_max,accuracy_mean,n_seeds
+HVG + LR,500,500,0.9237,0.9231,0.9243,0.9672,2
+HVG + LR,1000,1000,0.932,0.9076,0.9564,0.9745,2
+HVG + LR,5000,5000,0.9656,0.9654,0.9658,0.981,2
+HVG + LR,all,13988,0.9703,0.9703,0.9703,0.9837,2
+Harmony + LR,500,500,0.8081,0.7821,0.8341,0.93,2
+Harmony + LR,1000,1000,0.8675,0.8648,0.8703,0.9697,2
+Harmony + LR,5000,5000,0.8938,0.8896,0.8981,0.9833,2
+Harmony + LR,all,13988,0.9559,0.955,0.9568,0.9864,2
+scGPT fine-tuned,500,500,0.7869,0.7734,0.8004,0.8853,2
+scGPT fine-tuned,1000,1000,0.8404,0.8397,0.8411,0.9223,2
+scGPT fine-tuned,5000,5000,0.9071,0.9036,0.9107,0.9438,2
+scGPT fine-tuned,all,13988,0.9192,0.9,0.9384,0.9495,2
+scGPT fine-tuned + LR (secondary check),500,500,0.796,0.7701,0.8219,0.8887,2
+scGPT fine-tuned + LR (secondary check),1000,1000,0.8375,0.8317,0.8434,0.9131,2
+scGPT fine-tuned + LR (secondary check),5000,5000,0.8958,0.8952,0.8964,0.9342,2
+scGPT fine-tuned + LR (secondary check),all,13988,0.9431,0.9411,0.945,0.9599,2
+scGPT frozen + LR,500,500,0.6299,0.5935,0.6662,0.7932,2
+scGPT frozen + LR,1000,1000,0.6695,0.6569,0.6821,0.8033,2
+scGPT frozen + LR,5000,5000,0.7367,0.7264,0.747,0.8398,2
+scGPT frozen + LR,all,13988,0.7631,0.7527,0.7735,0.8628,2
+scVI + LR,500,500,0.6851,0.658,0.7123,0.8849,2
+scVI + LR,1000,1000,0.8111,0.7297,0.8925,0.9432,2
+scVI + LR,5000,5000,0.8715,0.8044,0.9386,0.9712,2
+scVI + LR,all,13988,0.9558,0.9403,0.9713,0.976,2
+scVI without smarter (sensitivity run),500,452,0.711,0.7046,0.7174,0.882,2
+scVI without smarter (sensitivity run),1000,899,0.8276,0.7992,0.8561,0.9373,2
+scVI without smarter (sensitivity run),5000,4471,0.8885,0.8878,0.8892,0.9708,2
+scVI without smarter (sensitivity run),all,12496,0.9555,0.9365,0.9745,0.9766,2
