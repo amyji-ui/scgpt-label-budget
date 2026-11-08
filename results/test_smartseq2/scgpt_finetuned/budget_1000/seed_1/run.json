@@ -1,0 +1,64 @@
+{
+  "init": "pretrained",
+  "budget": "1000",
+  "seed": 1,
+  "test_batches": [
+    "smartseq2"
+  ],
+  "n_fit": 898,
+  "n_val": 102,
+  "n_test": 2394,
+  "classes": [
+    "acinar",
+    "activated_stellate",
+    "alpha",
+    "beta",
+    "delta",
+    "ductal",
+    "endothelial",
+    "epsilon",
+    "gamma",
+    "macrophage",
+    "mast",
+    "quiescent_stellate",
+    "schwann",
+    "t_cell"
+  ],
+  "best_epoch": 9,
+  "best_val_loss": 0.32702645659446716,
+  "val_macro_f1_at_best_epoch": 0.8561918283579775,
+  "train_seconds": 570.5706443786621,
+  "test_inference_seconds": 27.129141330718994,
+  "peak_gpu_gib": 19.3008713722229,
+  "pretrained_weights_loaded": 159,
+  "settings": {
+    "data_dir": "data/processed",
+    "checkpoint_dir": "scGPT_human",
+    "outdir": "results",
+    "init": "pretrained",
+    "budgets": [
+      "500",
+      "1000",
+      "5000",
+      "all"
+    ],
+    "seeds": [
+      0,
+      1
+    ],
+    "epochs": 10,
+    "batch_size": 32,
+    "lr": 0.0001,
+    "lr_decay": 0.9,
+    "adam_eps": 0.0001,
+    "grad_clip": 1.0,
+    "max_seq_len": 3001,
+    "save_checkpoint": true,
+    "overwrite": true
+  },
+  "versions": {
+    "torch": "2.3.1",
+    "scgpt": "0.2.4",
+    "numpy": "1.26.4"
+  }
+}

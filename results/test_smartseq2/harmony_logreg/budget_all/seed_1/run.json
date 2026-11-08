@@ -1,0 +1,63 @@
+{
+  "method": "harmony_logreg",
+  "budget": "all",
+  "seed": 1,
+  "data_dir": "data/processed",
+  "test_batches": [
+    "smartseq2"
+  ],
+  "n_fit": 12589,
+  "n_val": 1399,
+  "n_test": 2394,
+  "classes": [
+    "acinar",
+    "activated_stellate",
+    "alpha",
+    "beta",
+    "delta",
+    "ductal",
+    "endothelial",
+    "epsilon",
+    "gamma",
+    "macrophage",
+    "mast",
+    "quiescent_stellate",
+    "schwann",
+    "t_cell"
+  ],
+  "n_features": 50,
+  "features": {
+    "embeddings": "results/embeddings/processed/harmony/seed_1.npz"
+  },
+  "C": 0.01,
+  "alpha": 0.0,
+  "trained_on": "fit + val",
+  "converged": true,
+  "train_seconds": 0.8529412746429443,
+  "test_inference_seconds": 0.00398707389831543,
+  "settings": {
+    "features": "harmony",
+    "data_dir": "data/processed",
+    "checkpoint_dir": "scGPT_human",
+    "outdir": "results",
+    "budgets": [
+      "500",
+      "1000",
+      "5000",
+      "all"
+    ],
+    "seeds": [
+      0,
+      1
+    ],
+    "n_hvg": 2000,
+    "C": 0.01,
+    "alpha": 0.0,
+    "max_iter": 3000,
+    "overwrite": false
+  },
+  "versions": {
+    "sklearn": "1.9.1",
+    "scanpy": "1.11.5"
+  }
+}

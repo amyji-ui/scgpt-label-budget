@@ -1,0 +1,67 @@
+{
+  "method": "scvi_no_smarter_logreg",
+  "budget": "500",
+  "seed": 0,
+  "data_dir": "data/processed",
+  "test_batches": [
+    "smartseq2"
+  ],
+  "n_fit": 399,
+  "n_val": 52,
+  "n_test": 2394,
+  "n_budget_cells_dropped": 49,
+  "classes": [
+    "acinar",
+    "activated_stellate",
+    "alpha",
+    "beta",
+    "delta",
+    "ductal",
+    "endothelial",
+    "epsilon",
+    "gamma",
+    "macrophage",
+    "mast",
+    "quiescent_stellate",
+    "schwann",
+    "t_cell"
+  ],
+  "n_features": 30,
+  "features": {
+    "embeddings": "results/embeddings/processed/scvi_no_smarter/seed_0.npz",
+    "excluded_batches": [
+      "smarter"
+    ]
+  },
+  "C": 0.01,
+  "alpha": 0.0,
+  "trained_on": "fit + val",
+  "converged": true,
+  "train_seconds": 0.021672964096069336,
+  "test_inference_seconds": 0.0020346641540527344,
+  "settings": {
+    "features": "scvi_no_smarter",
+    "data_dir": "data/processed",
+    "checkpoint_dir": "scGPT_human",
+    "outdir": "results",
+    "budgets": [
+      "500",
+      "1000",
+      "5000",
+      "all"
+    ],
+    "seeds": [
+      0,
+      1
+    ],
+    "n_hvg": 2000,
+    "C": 0.01,
+    "alpha": 0.0,
+    "max_iter": 3000,
+    "overwrite": false
+  },
+  "versions": {
+    "sklearn": "1.9.1",
+    "scanpy": "1.11.5"
+  }
+}

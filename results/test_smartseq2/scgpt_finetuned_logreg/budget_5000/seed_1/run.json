@@ -1,0 +1,63 @@
+{
+  "method": "scgpt_finetuned_logreg",
+  "budget": "5000",
+  "seed": 1,
+  "data_dir": "data/processed",
+  "test_batches": [
+    "smartseq2"
+  ],
+  "n_fit": 4499,
+  "n_val": 501,
+  "n_test": 2394,
+  "classes": [
+    "acinar",
+    "activated_stellate",
+    "alpha",
+    "beta",
+    "delta",
+    "ductal",
+    "endothelial",
+    "epsilon",
+    "gamma",
+    "macrophage",
+    "mast",
+    "quiescent_stellate",
+    "schwann",
+    "t_cell"
+  ],
+  "n_features": 512,
+  "features": {
+    "embeddings": "results/test_smartseq2/scgpt_finetuned/budget_5000/seed_1/embeddings.npz"
+  },
+  "C": 0.01,
+  "alpha": 0.0,
+  "trained_on": "fit + val",
+  "converged": true,
+  "train_seconds": 3.3518638610839844,
+  "test_inference_seconds": 0.004235267639160156,
+  "settings": {
+    "features": "scgpt_finetuned",
+    "data_dir": "data/processed",
+    "checkpoint_dir": "scGPT_human",
+    "outdir": "results",
+    "budgets": [
+      "500",
+      "1000",
+      "5000",
+      "all"
+    ],
+    "seeds": [
+      0,
+      1
+    ],
+    "n_hvg": 2000,
+    "C": 0.01,
+    "alpha": 0.0,
+    "max_iter": 3000,
+    "overwrite": true
+  },
+  "versions": {
+    "sklearn": "1.9.1",
+    "scanpy": "1.11.5"
+  }
+}

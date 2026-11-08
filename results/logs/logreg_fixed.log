@@ -1,0 +1,80 @@
+/home/ubuntu/project/.venv/lib/python3.11/site-packages/pandas/core/util/hashing.py:330: RuntimeWarning: invalid value encountered in cast
+  vals.astype(str).astype(object), hash_key, encoding
+/home/ubuntu/project/.venv/lib/python3.11/site-packages/pandas/core/util/hashing.py:330: RuntimeWarning: invalid value encountered in cast
+  vals.astype(str).astype(object), hash_key, encoding
+/home/ubuntu/project/.venv/lib/python3.11/site-packages/pandas/core/util/hashing.py:330: RuntimeWarning: invalid value encountered in cast
+  vals.astype(str).astype(object), hash_key, encoding
+/home/ubuntu/project/.venv/lib/python3.11/site-packages/pandas/core/util/hashing.py:330: RuntimeWarning: invalid value encountered in cast
+  vals.astype(str).astype(object), hash_key, encoding
+/home/ubuntu/project/.venv/lib/python3.11/site-packages/pandas/core/util/hashing.py:330: RuntimeWarning: invalid value encountered in cast
+  vals.astype(str).astype(object), hash_key, encoding
+/home/ubuntu/project/.venv/lib/python3.11/site-packages/pandas/core/util/hashing.py:330: RuntimeWarning: invalid value encountered in cast
+  vals.astype(str).astype(object), hash_key, encoding
+/home/ubuntu/project/.venv/lib/python3.11/site-packages/pandas/core/util/hashing.py:330: RuntimeWarning: invalid value encountered in cast
+  vals.astype(str).astype(object), hash_key, encoding
+/home/ubuntu/project/.venv/lib/python3.11/site-packages/pandas/core/util/hashing.py:330: RuntimeWarning: invalid value encountered in cast
+  vals.astype(str).astype(object), hash_key, encoding
+hvg, budget 500, seed 0: 500 training cells (fit + val), 2394 test, 2000 features
+/home/ubuntu/project/util/03_logreg.py:172: FutureWarning: `__version__` is deprecated, use `importlib.metadata.version('scanpy')` instead
+  "versions": {"sklearn": sklearn.__version__, "scanpy": sc.__version__},
+  C 0.01, alpha 0.0, converged True, 1s
+hvg, budget 1000, seed 0: 1000 training cells (fit + val), 2394 test, 2000 features
+/home/ubuntu/project/util/03_logreg.py:172: FutureWarning: `__version__` is deprecated, use `importlib.metadata.version('scanpy')` instead
+  "versions": {"sklearn": sklearn.__version__, "scanpy": sc.__version__},
+  C 0.01, alpha 0.0, converged True, 2s
+hvg, budget 5000, seed 0: 5000 training cells (fit + val), 2394 test, 2000 features
+/home/ubuntu/project/util/03_logreg.py:172: FutureWarning: `__version__` is deprecated, use `importlib.metadata.version('scanpy')` instead
+  "versions": {"sklearn": sklearn.__version__, "scanpy": sc.__version__},
+  C 0.01, alpha 0.0, converged True, 5s
+hvg, budget all, seed 0: 13988 training cells (fit + val), 2394 test, 2000 features
+/home/ubuntu/project/util/03_logreg.py:172: FutureWarning: `__version__` is deprecated, use `importlib.metadata.version('scanpy')` instead
+  "versions": {"sklearn": sklearn.__version__, "scanpy": sc.__version__},
+  C 0.01, alpha 0.0, converged True, 11s
+hvg, budget 500, seed 1: 500 training cells (fit + val), 2394 test, 2000 features
+/home/ubuntu/project/util/03_logreg.py:172: FutureWarning: `__version__` is deprecated, use `importlib.metadata.version('scanpy')` instead
+  "versions": {"sklearn": sklearn.__version__, "scanpy": sc.__version__},
+  C 0.01, alpha 0.0, converged True, 1s
+hvg, budget 1000, seed 1: 1000 training cells (fit + val), 2394 test, 2000 features
+/home/ubuntu/project/util/03_logreg.py:172: FutureWarning: `__version__` is deprecated, use `importlib.metadata.version('scanpy')` instead
+  "versions": {"sklearn": sklearn.__version__, "scanpy": sc.__version__},
+  C 0.01, alpha 0.0, converged True, 2s
+hvg, budget 5000, seed 1: 5000 training cells (fit + val), 2394 test, 2000 features
+/home/ubuntu/project/util/03_logreg.py:172: FutureWarning: `__version__` is deprecated, use `importlib.metadata.version('scanpy')` instead
+  "versions": {"sklearn": sklearn.__version__, "scanpy": sc.__version__},
+  C 0.01, alpha 0.0, converged True, 4s
+hvg, budget all, seed 1: 13988 training cells (fit + val), 2394 test, 2000 features
+/home/ubuntu/project/util/03_logreg.py:172: FutureWarning: `__version__` is deprecated, use `importlib.metadata.version('scanpy')` instead
+  "versions": {"sklearn": sklearn.__version__, "scanpy": sc.__version__},
+  C 0.01, alpha 0.0, converged True, 11s
+scgpt_finetuned, budget 500, seed 0: 500 training cells (fit + val), 2394 test, 512 features
+/home/ubuntu/project/util/03_logreg.py:172: FutureWarning: `__version__` is deprecated, use `importlib.metadata.version('scanpy')` instead
+  "versions": {"sklearn": sklearn.__version__, "scanpy": sc.__version__},
+  C 0.01, alpha 0.0, converged True, 1s
+scgpt_finetuned, budget 1000, seed 0: 1000 training cells (fit + val), 2394 test, 512 features
+/home/ubuntu/project/util/03_logreg.py:172: FutureWarning: `__version__` is deprecated, use `importlib.metadata.version('scanpy')` instead
+  "versions": {"sklearn": sklearn.__version__, "scanpy": sc.__version__},
+  C 0.01, alpha 0.0, converged True, 1s
+scgpt_finetuned, budget 5000, seed 0: 5000 training cells (fit + val), 2394 test, 512 features
+/home/ubuntu/project/util/03_logreg.py:172: FutureWarning: `__version__` is deprecated, use `importlib.metadata.version('scanpy')` instead
+  "versions": {"sklearn": sklearn.__version__, "scanpy": sc.__version__},
+  C 0.01, alpha 0.0, converged True, 2s
+scgpt_finetuned, budget all, seed 0: 13988 training cells (fit + val), 2394 test, 512 features
+/home/ubuntu/project/util/03_logreg.py:172: FutureWarning: `__version__` is deprecated, use `importlib.metadata.version('scanpy')` instead
+  "versions": {"sklearn": sklearn.__version__, "scanpy": sc.__version__},
+  C 0.01, alpha 0.0, converged True, 5s
+scgpt_finetuned, budget 500, seed 1: 500 training cells (fit + val), 2394 test, 512 features
+/home/ubuntu/project/util/03_logreg.py:172: FutureWarning: `__version__` is deprecated, use `importlib.metadata.version('scanpy')` instead
+  "versions": {"sklearn": sklearn.__version__, "scanpy": sc.__version__},
+  C 0.01, alpha 0.0, converged True, 1s
+scgpt_finetuned, budget 1000, seed 1: 1000 training cells (fit + val), 2394 test, 512 features
+/home/ubuntu/project/util/03_logreg.py:172: FutureWarning: `__version__` is deprecated, use `importlib.metadata.version('scanpy')` instead
+  "versions": {"sklearn": sklearn.__version__, "scanpy": sc.__version__},
+  C 0.01, alpha 0.0, converged True, 2s
+scgpt_finetuned, budget 5000, seed 1: 5000 training cells (fit + val), 2394 test, 512 features
+/home/ubuntu/project/util/03_logreg.py:172: FutureWarning: `__version__` is deprecated, use `importlib.metadata.version('scanpy')` instead
+  "versions": {"sklearn": sklearn.__version__, "scanpy": sc.__version__},
+  C 0.01, alpha 0.0, converged True, 3s
+scgpt_finetuned, budget all, seed 1: 13988 training cells (fit + val), 2394 test, 512 features
+/home/ubuntu/project/util/03_logreg.py:172: FutureWarning: `__version__` is deprecated, use `importlib.metadata.version('scanpy')` instead
+  "versions": {"sklearn": sklearn.__version__, "scanpy": sc.__version__},
+  C 0.01, alpha 0.0, converged True, 3s

@@ -1,0 +1,15 @@
+/home/ubuntu/project/.venv/lib/python3.11/site-packages/scgpt/model/model.py:21: UserWarning: flash_attn is not installed
+  warnings.warn("flash_attn is not installed")
+/home/ubuntu/project/.venv/lib/python3.11/site-packages/scgpt/model/multiomic_model.py:19: UserWarning: flash_attn is not installed
+  warnings.warn("flash_attn is not installed")
+/home/ubuntu/project/.venv/lib/python3.11/site-packages/torchtext/vocab/__init__.py:4: UserWarning: 
+/!\ IMPORTANT WARNING ABOUT TORCHTEXT STATUS /!\ 
+Torchtext is deprecated and the last released version will be 0.18 (this one). You can silence this warning by calling the following at the beginnign of your scripts: `import torchtext; torchtext.disable_torchtext_deprecation_warning()`
+  warnings.warn(torchtext._TORCHTEXT_DEPRECATION_MSG)
+/home/ubuntu/project/.venv/lib/python3.11/site-packages/torchtext/utils.py:4: UserWarning: 
+/!\ IMPORTANT WARNING ABOUT TORCHTEXT STATUS /!\ 
+Torchtext is deprecated and the last released version will be 0.18 (this one). You can silence this warning by calling the following at the beginnign of your scripts: `import torchtext; torchtext.disable_torchtext_deprecation_warning()`
+  warnings.warn(torchtext._TORCHTEXT_DEPRECATION_MSG)
+Using 18160 of 19093 genes found in the scGPT vocabulary
+seed 0: embedded 16382 cells in 2.7 min, saved results/embeddings/processed/scgpt_frozen/seed_0.npz
+seed 1: embedded 16382 cells in 2.7 min, saved results/embeddings/processed/scgpt_frozen/seed_1.npz

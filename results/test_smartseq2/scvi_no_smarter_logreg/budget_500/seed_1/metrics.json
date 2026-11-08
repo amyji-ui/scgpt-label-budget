@@ -1,0 +1,130 @@
+{
+  "test_batches": "smartseq2",
+  "method": "scvi_no_smarter_logreg",
+  "budget": "500",
+  "seed": 1,
+  "n_fit": 404,
+  "n_val": 48,
+  "train_seconds": 0.015119552612304688,
+  "test_inference_seconds": 0.0016765594482421875,
+  "gpu_hours": 4.665586683485243e-06,
+  "cost_usd": 4.693580203586155e-06,
+  "peak_gpu_gib": null,
+  "eval_script_sha256": "74200e16bb4ba1e1a0c0725ef6b86ca400314190eae15a25db283d0377d00c8f",
+  "eval_frozen": true,
+  "macro_f1": 0.7173532857218446,
+  "accuracy": 0.9035087719298246,
+  "weighted_f1": 0.8918222740787227,
+  "n_test": 2394,
+  "n_types_scored": 13,
+  "n_predicted_absent_type": 1,
+  "predicted_absent_types": [
+    "t_cell"
+  ],
+  "per_type": [
+    {
+      "celltype": "acinar",
+      "n_test": 188,
+      "n_predicted": 191,
+      "precision": 0.9057591623036649,
+      "recall": 0.9202127659574468,
+      "f1": 0.9129287598944591
+    },
+    {
+      "celltype": "activated_stellate",
+      "n_test": 55,
+      "n_predicted": 34,
+      "precision": 0.9411764705882353,
+      "recall": 0.5818181818181818,
+      "f1": 0.7191011235955056
+    },
+    {
+      "celltype": "alpha",
+      "n_test": 1008,
+      "n_predicted": 1044,
+      "precision": 0.946360153256705,
+      "recall": 0.9801587301587301,
+      "f1": 0.9629629629629629
+    },
+    {
+      "celltype": "beta",
+      "n_test": 308,
+      "n_predicted": 416,
+      "precision": 0.7283653846153846,
+      "recall": 0.9837662337662337,
+      "f1": 0.8370165745856354
+    },
+    {
+      "celltype": "delta",
+      "n_test": 127,
+      "n_predicted": 122,
+      "precision": 0.9344262295081968,
+      "recall": 0.8976377952755905,
+      "f1": 0.9156626506024096
+    },
+    {
+      "celltype": "ductal",
+      "n_test": 444,
+      "n_predicted": 474,
+      "precision": 0.930379746835443,
+      "recall": 0.9932432432432432,
+      "f1": 0.9607843137254902
+    },
+    {
+      "celltype": "endothelial",
+      "n_test": 21,
+      "n_predicted": 7,
+      "precision": 1.0,
+      "recall": 0.3333333333333333,
+      "f1": 0.5
+    },
+    {
+      "celltype": "epsilon",
+      "n_test": 8,
+      "n_predicted": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "celltype": "gamma",
+      "n_test": 213,
+      "n_predicted": 90,
+      "precision": 1.0,
+      "recall": 0.4225352112676056,
+      "f1": 0.594059405940594
+    },
+    {
+      "celltype": "macrophage",
+      "n_test": 7,
+      "n_predicted": 7,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "celltype": "mast",
+      "n_test": 7,
+      "n_predicted": 6,
+      "precision": 1.0,
+      "recall": 0.8571428571428571,
+      "f1": 0.9230769230769231
+    },
+    {
+      "celltype": "quiescent_stellate",
+      "n_test": 6,
+      "n_predicted": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "celltype": "schwann",
+      "n_test": 2,
+      "n_predicted": 2,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+/home/ubuntu/project/.venv/lib/python3.11/site-packages/scgpt/model/model.py:21: UserWarning: flash_attn is not installed
+  warnings.warn("flash_attn is not installed")
+/home/ubuntu/project/.venv/lib/python3.11/site-packages/scgpt/model/multiomic_model.py:19: UserWarning: flash_attn is not installed
+  warnings.warn("flash_attn is not installed")
+/home/ubuntu/project/.venv/lib/python3.11/site-packages/torchtext/vocab/__init__.py:4: UserWarning: 
+/!\ IMPORTANT WARNING ABOUT TORCHTEXT STATUS /!\ 
+Torchtext is deprecated and the last released version will be 0.18 (this one). You can silence this warning by calling the following at the beginnign of your scripts: `import torchtext; torchtext.disable_torchtext_deprecation_warning()`
+  warnings.warn(torchtext._TORCHTEXT_DEPRECATION_MSG)
+/home/ubuntu/project/.venv/lib/python3.11/site-packages/torchtext/utils.py:4: UserWarning: 
+/!\ IMPORTANT WARNING ABOUT TORCHTEXT STATUS /!\ 
+Torchtext is deprecated and the last released version will be 0.18 (this one). You can silence this warning by calling the following at the beginnign of your scripts: `import torchtext; torchtext.disable_torchtext_deprecation_warning()`
+  warnings.warn(torchtext._TORCHTEXT_DEPRECATION_MSG)
+Using 18160 of 19093 genes found in the scGPT vocabulary
+pretrained, budget 500, seed 0: 446 fit, 54 val, 2394 test
+  epoch 1: train loss 1.679, val loss 0.953, val macro F1 0.224, 29s
+  epoch 2: train loss 0.646, val loss 0.704, val macro F1 0.481, 28s
+  epoch 3: train loss 0.470, val loss 0.480, val macro F1 0.804, 28s
+  epoch 4: train loss 0.349, val loss 0.350, val macro F1 0.792, 28s
+  epoch 5: train loss 0.298, val loss 0.489, val macro F1 0.850, 28s
+  epoch 6: train loss 0.243, val loss 0.419, val macro F1 0.761, 28s
+  epoch 7: train loss 0.186, val loss 0.231, val macro F1 0.864, 28s
+  epoch 8: train loss 0.151, val loss 0.323, val macro F1 0.811, 28s
+  epoch 9: train loss 0.106, val loss 0.233, val macro F1 0.832, 28s
+  epoch 10: train loss 0.118, val loss 0.201, val macro F1 0.867, 28s
+  best epoch 10, val loss 0.201, 4.8 min. Saved to results/test_smartseq2/scgpt_finetuned/budget_500/seed_0
+pretrained, budget 1000, seed 0: 898 fit, 102 val, 2394 test
+  epoch 1: train loss 1.238, val loss 0.476, val macro F1 0.515, 57s
+  epoch 2: train loss 0.439, val loss 0.585, val macro F1 0.529, 57s
+  epoch 3: train loss 0.326, val loss 0.491, val macro F1 0.767, 57s
+  epoch 4: train loss 0.227, val loss 0.191, val macro F1 0.835, 57s
+  epoch 5: train loss 0.274, val loss 0.327, val macro F1 0.721, 57s
+  epoch 6: train loss 0.143, val loss 0.134, val macro F1 0.891, 57s
+  epoch 7: train loss 0.093, val loss 0.105, val macro F1 0.905, 57s
+  epoch 8: train loss 0.082, val loss 0.123, val macro F1 0.909, 57s
+  epoch 9: train loss 0.058, val loss 0.222, val macro F1 0.883, 57s
+  epoch 10: train loss 0.051, val loss 0.099, val macro F1 0.903, 57s
+  best epoch 10, val loss 0.099, 9.5 min. Saved to results/test_smartseq2/scgpt_finetuned/budget_1000/seed_0
+pretrained, budget 5000, seed 0: 4499 fit, 501 val, 2394 test
+  epoch 1: train loss 0.520, val loss 0.201, val macro F1 0.893, 285s
+  epoch 2: train loss 0.192, val loss 0.208, val macro F1 0.866, 285s
+  epoch 3: train loss 0.131, val loss 0.102, val macro F1 0.913, 285s
+  epoch 4: train loss 0.093, val loss 0.104, val macro F1 0.916, 285s
+  epoch 5: train loss 0.074, val loss 0.112, val macro F1 0.954, 285s
+  epoch 6: train loss 0.053, val loss 0.108, val macro F1 0.910, 285s
+  epoch 7: train loss 0.039, val loss 0.086, val macro F1 0.892, 285s
+  epoch 8: train loss 0.027, val loss 0.110, val macro F1 0.962, 285s
+  epoch 9: train loss 0.022, val loss 0.066, val macro F1 0.919, 285s
+  epoch 10: train loss 0.015, val loss 0.072, val macro F1 0.968, 285s
+  best epoch 9, val loss 0.066, 47.6 min. Saved to results/test_smartseq2/scgpt_finetuned/budget_5000/seed_0
+pretrained, budget all, seed 0: 12589 fit, 1399 val, 2394 test
+  epoch 1: train loss 0.318, val loss 0.145, val macro F1 0.878, 798s
+  epoch 2: train loss 0.142, val loss 0.091, val macro F1 0.891, 797s
+  epoch 3: train loss 0.086, val loss 0.062, val macro F1 0.898, 798s
+  epoch 4: train loss 0.074, val loss 0.068, val macro F1 0.951, 797s
+  epoch 5: train loss 0.051, val loss 0.056, val macro F1 0.937, 797s
+  epoch 6: train loss 0.036, val loss 0.045, val macro F1 0.991, 798s
+  epoch 7: train loss 0.027, val loss 0.047, val macro F1 0.977, 797s
+  epoch 8: train loss 0.015, val loss 0.054, val macro F1 0.970, 798s
+  epoch 9: train loss 0.014, val loss 0.045, val macro F1 0.964, 798s
+  epoch 10: train loss 0.009, val loss 0.061, val macro F1 0.962, 797s
+  best epoch 6, val loss 0.045, 132.9 min. Saved to results/test_smartseq2/scgpt_finetuned/budget_all/seed_0
+pretrained, budget 500, seed 1: 446 fit, 54 val, 2394 test
+  epoch 1: train loss 1.690, val loss 1.200, val macro F1 0.231, 28s
+  epoch 2: train loss 0.858, val loss 1.054, val macro F1 0.353, 28s
+  epoch 3: train loss 0.685, val loss 0.925, val macro F1 0.408, 28s
+  epoch 4: train loss 0.502, val loss 0.768, val macro F1 0.535, 28s
+  epoch 5: train loss 0.386, val loss 0.526, val macro F1 0.846, 28s
+  epoch 6: train loss 0.266, val loss 0.806, val macro F1 0.789, 28s
+  epoch 7: train loss 0.220, val loss 0.506, val macro F1 0.841, 28s
+  epoch 8: train loss 0.165, val loss 0.538, val macro F1 0.828, 28s
+  epoch 9: train loss 0.162, val loss 0.531, val macro F1 0.854, 28s
+  epoch 10: train loss 0.193, val loss 0.450, val macro F1 0.842, 28s
+  best epoch 10, val loss 0.450, 4.7 min. Saved to results/test_smartseq2/scgpt_finetuned/budget_500/seed_1
+pretrained, budget 1000, seed 1: 898 fit, 102 val, 2394 test
+  epoch 1: train loss 1.185, val loss 0.704, val macro F1 0.484, 57s
+  epoch 2: train loss 0.503, val loss 0.558, val macro F1 0.541, 57s
+  epoch 3: train loss 0.310, val loss 0.414, val macro F1 0.661, 57s
+  epoch 4: train loss 0.248, val loss 0.353, val macro F1 0.833, 57s
+  epoch 5: train loss 0.156, val loss 0.392, val macro F1 0.821, 57s
+  epoch 6: train loss 0.184, val loss 0.451, val macro F1 0.863, 57s
+  epoch 7: train loss 0.099, val loss 0.361, val macro F1 0.872, 57s
+  epoch 8: train loss 0.084, val loss 0.372, val macro F1 0.871, 57s
+  epoch 9: train loss 0.055, val loss 0.327, val macro F1 0.856, 57s
+  epoch 10: train loss 0.053, val loss 0.352, val macro F1 0.872, 57s
+  best epoch 9, val loss 0.327, 9.5 min. Saved to results/test_smartseq2/scgpt_finetuned/budget_1000/seed_1
+pretrained, budget 5000, seed 1: 4499 fit, 501 val, 2394 test
+  epoch 1: train loss 0.542, val loss 0.300, val macro F1 0.666, 285s
+  epoch 2: train loss 0.208, val loss 0.348, val macro F1 0.743, 285s
+  epoch 3: train loss 0.161, val loss 0.173, val macro F1 0.794, 285s
+  epoch 4: train loss 0.125, val loss 0.107, val macro F1 0.804, 285s
+  epoch 5: train loss 0.091, val loss 0.143, val macro F1 0.803, 285s
+  epoch 6: train loss 0.078, val loss 0.122, val macro F1 0.899, 285s
+  epoch 7: train loss 0.061, val loss 0.105, val macro F1 0.983, 285s
+  epoch 8: train loss 0.037, val loss 0.097, val macro F1 0.985, 285s
+  epoch 9: train loss 0.029, val loss 0.140, val macro F1 0.874, 285s
+  epoch 10: train loss 0.025, val loss 0.094, val macro F1 0.888, 285s
+  best epoch 10, val loss 0.094, 47.5 min. Saved to results/test_smartseq2/scgpt_finetuned/budget_5000/seed_1
+pretrained, budget all, seed 1: 12589 fit, 1399 val, 2394 test
+  epoch 1: train loss 0.315, val loss 0.229, val macro F1 0.774, 798s
+  epoch 2: train loss 0.137, val loss 0.131, val macro F1 0.827, 798s
+  epoch 3: train loss 0.101, val loss 0.085, val macro F1 0.982, 798s
+  epoch 4: train loss 0.079, val loss 0.068, val macro F1 0.888, 798s
+  epoch 5: train loss 0.058, val loss 0.089, val macro F1 0.974, 797s
+  epoch 6: train loss 0.046, val loss 0.072, val macro F1 0.966, 798s
+  epoch 7: train loss 0.033, val loss 0.083, val macro F1 0.903, 798s
+  epoch 8: train loss 0.028, val loss 0.059, val macro F1 0.988, 798s
+  epoch 9: train loss 0.019, val loss 0.078, val macro F1 0.958, 798s
+  epoch 10: train loss 0.012, val loss 0.095, val macro F1 0.984, 797s
+  best epoch 8, val loss 0.059, 132.9 min. Saved to results/test_smartseq2/scgpt_finetuned/budget_all/seed_1

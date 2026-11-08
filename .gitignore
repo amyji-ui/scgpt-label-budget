@@ -1,0 +1,17 @@
+# Environment (rebuild with: uv venv --python 3.11 .venv && uv pip sync requirements.txt)
+.venv/
+__pycache__/
+*.pyc
+
+# Data: the source .h5ad and everything 00_preprocessing.py derives from it
+data/
+
+# Pretrained scGPT checkpoint (download separately into scGPT_human/)
+scGPT_human/
+
+# Large or regenerable results: model weights and embeddings
+*.pt
+results/embeddings/
+results/**/embeddings.npz
+
+# Kept in git: results/**/predictions_test.csv, run.json, history.csv, metrics*.json/csv, logs
